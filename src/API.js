@@ -57,6 +57,7 @@ const apiSettings = {
         })
       ).json();
       return sessionId;
+      console.log(bodyData)
     }
   },
   rateMovie: async (sessionId, movieId, value) => {
