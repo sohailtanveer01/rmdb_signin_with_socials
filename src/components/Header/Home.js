@@ -52,7 +52,7 @@ const Home = () => {
           onClick={
             () =>
               logout({
-                logoutParams: { returnTo: "http://localhost:3000/signin" },
+                logoutParams: { returnTo: "https://rmdb-signin-with-socials.vercel.app/signin" },
               })
             // console.log(window.location.origin)
           }
